@@ -42,6 +42,14 @@
     content: "WebDeveloper";
   }
 }
+@keyframes animate-left{
+  from{
+    transform: scaleX(-30px);
+  }
+  to{
+    transform: scaleX(0px);
+  }
+}
 
 html {
   scroll-behavior: smooth;
@@ -123,6 +131,7 @@ header nav ul a:hover {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 70px;
   color: white;
+  animation: animate-left
 }
 .container2 image {
   width: 10px;
@@ -143,6 +152,7 @@ header nav ul a:hover {
   height: 35vh;
   color: whitesmoke;
 
+
   border-radius: 35px;
   padding: 15px;
   background: rgb(33, 31, 46);
@@ -150,8 +160,12 @@ header nav ul a:hover {
     180deg,
     rgb(94, 87, 137) 0%,
     rgba(116, 143, 153, 1) 100%
+    
   );
+  
 }
+
+
 .project2 {
   text-align: center;
   opacity: 0.7;

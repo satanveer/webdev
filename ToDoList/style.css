@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15vh;
+}
+header h1{
+    color: #352F44;
+}
+header input{
+    background-color: #443c58;
+    opacity: 0.6;
+    padding: 10px;
+    border-radius: 1rem;
+    width: 40vw;
+    color: #C23373;
+    font-weight: bold;
+}
+header input::placeholder{
+    color: #C23373;
+    padding: 10px;
+    font-size: large;
+}
+body{
+    background-color: #FAF0E6;
+}
+input{
+    border-style: none;
+}
+.task-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25vh;
+    justify-content: space-around;
+}
+.task-list h2{
+    color: #352F44;
+    margin-top: 10vh;
+}
+.task{
+    display: flex;
+    background-color: #443c58;
+    opacity: 0.6;
+    width: 35vw;
+    padding: 10px;
+    border-radius: 1rem;
+    
+}
+.text{
+    background:none;
+    color: #C23373;
+    font-size: large;
+    border: none;
+    border-radius: none;
+
+
+}
+.actions{
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    
+}
+.edit{
+    color: #C23373;
+    background:none;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    font-size: large;
+    margin-left: 5vw;
+    
+}
+.edit:hover{
+    color: red;
+    opacity: 0.8;
+    transition-duration: 0.1s;
+}
+.delete{
+    color: #C23373;
+    background:none;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    font-size: large;
+    
+}
+.delete:hover{
+    color: red;
+    opacity: 0.8;
+    transition-duration: 0.1s;
+}
