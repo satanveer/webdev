@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 @keyframes color-grey {
   from {
@@ -120,12 +121,14 @@ header nav ul a:hover {
   justify-content: space-between;
 }
 #webdevimg {
-  height: 600px;
-  width: 900px;
+  margin-top: 30px;
+  height: 60vh;
+  width: 50vw;
+
 }
 .container1 {
-  width: 30vh;
-  height: 30vh;
+  width: 40vh;
+  height: 50vh;
   margin-left: 10px;
   font-size: 70px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -143,7 +146,7 @@ header nav ul a:hover {
   justify-content: space-around;
   align-items: center;
 }
-.project1 {
+.project {
   text-align: center;
   opacity: 0.7;
   margin: 10px 0px;
@@ -162,89 +165,8 @@ header nav ul a:hover {
     rgba(116, 143, 153, 1) 100%
     
   );
-  
 }
-
-
-.project2 {
-  text-align: center;
-  opacity: 0.7;
-  margin: 10px 0px;
-  text-decoration: none;
-  width: 15vw;
-  height: 35vh;
-  color: white;
-
-  border-radius: 35px;
-  padding: 15px;
-  background: rgb(33, 31, 46);
-  background-color: linear-gradient(
-    180deg,
-    rgb(94, 87, 137) 0%,
-    rgba(116, 143, 153, 1) 100%
-  );
-}
-.project3 {
-  text-align: center;
-  opacity: 0.7;
-  margin: 10px 0px;
-  text-decoration: none;
-  width: 15vw;
-  height: 35vh;
-  color: white;
-
-  border-radius: 35px;
-  padding: 15px;
-  background: rgb(33, 31, 46);
-  background-color: linear-gradient(
-    180deg,
-    rgb(94, 87, 137) 0%,
-    rgba(116, 143, 153, 1) 100%
-  );
-}
-.project4 {
-  text-align: center;
-  opacity: 0.7;
-  margin: 10px 0px;
-  text-decoration: none;
-  width: 15vw;
-  height: 35vh;
-  color: white;
-
-  border-radius: 35px;
-  padding: 15px;
-  background: rgb(33, 31, 46);
-  background-color: linear-gradient(
-    180deg,
-    rgb(94, 87, 137) 0%,
-    rgba(116, 143, 153, 1) 100%
-  );
-}
-.project1:hover {
-  cursor: pointer;
-  animation-name: zoomin;
-  animation-duration: 0.7s;
-  animation-fill-mode: forwards;
-  opacity: 1;
-  transition-duration: 0.2s;
-}
-.project2:hover {
-  cursor: pointer;
-  animation-name: zoomin;
-  animation-duration: 0.7s;
-  animation-fill-mode: forwards;
-  opacity: 1;
-  transition-duration: 0.2s;
-}
-.project3:hover {
-  cursor: pointer;
-  animation-name: zoomin;
-  animation-duration: 0.7s;
-  animation-fill-mode: forwards;
-  opacity: 1;
-  transition-duration: 0.2s;
-}
-.project4:hover {
+.project:hover {
   cursor: pointer;
   animation-name: zoomin;
   animation-duration: 0.7s;
@@ -454,5 +376,79 @@ body {
 
 .slider-nav a:hover {
   opacity: 1;
+}
+
+@media screen and (max-width:600px){
+  #webdevimg{
+   height: 0;
+   width: 0;
+    
+  }
+
+  .container1 {
+    align-items: center;
+    margin-top: 100px;
+    width: 40vh;
+    height: 50vh;
+    font-size: 40px;
+    justify-content: center;
+  }
+  .first-section-full{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    
+  }
+  .second-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .third-section{
+    flex-wrap: wrap;
+  }
+  .project{
+    width: 35vw;
+    height: 20vh;
+  }
+
+  .third-section{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .resume{
+    margin-top: 5vh;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    
+  }
+  .education{
+    width: 70vw;
+    height: 20vh;
+    font-size: 10px;
+
+  }
+  .skills{
+    width: 70vw;
+    height: 20vh;
+    font-size: 10px;
+   
+  }
+  .certification{
+    width: 70vw;
+    height: 20vh;
+    font-size: 10px;
+    
+  }
+  .slider{
+    height: 0;
+  }
+  #last{
+    height: 0;
+  }
+
+
 }
 
