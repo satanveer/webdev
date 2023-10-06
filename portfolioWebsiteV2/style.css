@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: url(images/background1.jpeg);
+}
+.nav-bar{
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    display: flex;
+    width: 95vw;
+    height: 5rem;
+    background-color: #ffecd1;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    font-size: 20px;    
+}
+.nav-bar .left ul{
+    width: 30vw;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 2.5rem;
+    
+}
+.nav-bar .left ul li:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.nav-bar .left ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+    z-index: 99;
+    width: 100%;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.nav-bar .right ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 7vw;
+    margin-right: 1rem;
+}
+
+.nav-bar .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar .right ul li:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.icon{
+    background-color: #ffecd1;
+    width: 1.5rem;
+    height: auto;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+}
+.left-container-skills{
+    width: 6vw;
+    height: 50vh;
+    background-color: #ffecd1;
+    margin-top: 18vh;
+    margin-left: 3vw;
+    border-radius: 1rem;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skill-icon{
+    width: 5vw;
+}
+#github_icon{
+    border-style: none;
+    border-radius: 1rem;
+}
+#github_icon:hover{
+    cursor: pointer;
+}
+#linkldn_icon{
+    border-style: none;
+    border-radius: 1rem;
+}
+#linkldn_icon:hover{
+    cursor: pointer;
+}
+
