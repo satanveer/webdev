@@ -44,6 +44,8 @@ nav {
 }
 .gameInfo img {
   margin-right: 10vw;
+  width: 0;
+  transition: width 1s ease-in-out;
 }
 .bt-0 {
   border-top: 0;
@@ -56,4 +58,51 @@ nav {
 }
 .br-0 {
   border-right: 0;
+}
+#reset {
+  padding: 1vh;
+  font-size: 3vh;
+  color: blueviolet;
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  margin-left: 3vw;
+}
+.info {
+  font-size: 3vh;
+  font-weight: 700;
+}
+#welcome-text {
+  font-size: 3vh;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 800px) {
+  .game {
+    flex-wrap: wrap;
+  }
+  .game{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+  }
+  .mainGame{
+    justify-content: center;
+    grid-template-rows: repeat(3, 13vw);
+    grid-template-columns: repeat(3, 15vw);
+  }
+  .boxtext{
+    font-size: 3rem;
+  }
+
+  .gameInfo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  #modi-img{
+    margin-top: 15vh;
+  }
 }
