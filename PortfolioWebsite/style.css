@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 @keyframes color-grey {
   from {
@@ -64,19 +67,20 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
+  
 }
 .sticky {
   position: fixed;
 }
 
 nav ul {
-  width: 400px;
+  width: 40vw;
   height: 60px;
   display: flex;
   list-style: none;
   justify-content: space-between;
   align-items: center;
-  margin-left: 30px;
+  
 }
 .images {
   height: 50px;
@@ -93,8 +97,7 @@ header nav ul a {
   border-radius: 20px;
 }
 header nav ul a:hover {
-  background-color: rgb(116, 143, 153, 0.7);
-  border-radius: 20px;
+  opacity: 0.7;
   transition: 0.3s;
   transition-timing-function: ease-in-out;
   transition-duration: 0.2s;
@@ -105,7 +108,6 @@ header nav ul a:hover {
   animation: animate infinite 10s;
   color: bisque;
   font-size: 40px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   transition-timing-function: ease-in-out;
   border: white solid 1px;
 }
@@ -131,7 +133,6 @@ header nav ul a:hover {
   height: 50vh;
   margin-left: 10px;
   font-size: 70px;
-  font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 70px;
   color: white;
   animation: animate-left

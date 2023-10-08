@@ -3,23 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Montserrat:wght@300;700;900&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>To Do List</title>
+    <title>TDL-TS</title>
 </head>
-<header><h1>Task List</h1>
-    <form action="" id="new-task-form">
-        <input type="text" placeholder="Enter Your Task" id="new-task-input">
-    </form>
-</header>
 <body>
-    <div class="task-list">
-        <h2>Tasks</h2>
-
-        <div id="tasks">
-            
+    <section class="first">
+        <div class="nav-bar">
+            <img src="S-removebg-preview.png" alt="" srcset="">
+            <h1>To Do List</h1>
         </div>
-    </div>
+        <div class="main-body">
+            <div class="input">
+                <span id="task-entry">Enter Your Task</span>
+                <input type="text" id="task-input" placeholder="Enter your task">
+                <button id="submit">SUBMIT</button>
+            </div>
 
-    <script src="script.js"></script>
+            <div class="tasks">
+                <span class="task-list">Task-1</span>
+                <button class="done">DONE</button>
+            </div>
+    </section> 
+
+    <script src=""></script>
 </body>
 </html>
