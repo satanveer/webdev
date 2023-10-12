@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Montserrat:wght@300;700;900&family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Montserrat:wght@300;700;900&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>TDL-TS</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="first">
-        <div class="nav-bar">
-            <img src="S-removebg-preview.png" alt="" srcset="">
-            <h1>To Do List</h1>
-        </div>
-        <div class="main-body">
+      <div class="nav-bar">
+        <img src="S-removebg-preview.png" alt="" srcset="" />
+        <h1>To Do List</h1>
+      </div>
+      <div class="main-body">
             <div class="input">
                 <span id="task-entry">Enter Your Task</span>
-                <input type="text" id="task-input" placeholder="Enter your task">
-                <button id="submit">SUBMIT</button>
+                <input type="text" id="task-input" placeholder="Enter your task" />
+                <button id="submit" onclick="addTask()">SUBMIT</button>
             </div>
-
-            <div class="tasks">
-                <span class="task-list">Task-1</span>
-                <button class="done">DONE</button>
+            <div class="taskall">
+                 <!----<div class="tasks">
+                <span id ="task-container" class="task-list"></span>
+                <button class="done">DONE</button> -->
             </div>
-    </section> 
+      </div>
+    </section>
 
-    <script src=""></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
