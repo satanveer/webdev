@@ -1,41 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Montserrat:wght@300;400;500;700;900&family=Roboto:wght@100&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Portfolio Website</title>
-  </head>
-  <body>
-    <div class="section-one">
-      <div class="heading">
-        <h1>Hello,</h1>
-        <h2>I am Tanveer</h2>
-      </div>
-      <div class="image-skills">
-        <
-        <img
-          src="images/IMG_2062_2-removebg-preview.png"
-          alt=""
-          id="tanveer_pic"
-        />
-        <div class="left-container-skills">
-          <img src="images/icons8-css-144.png" alt="" class="skill-icon" />
-          <img src="images/icons8-html-144.png" alt="" class="skill-icon" />
-          <img
-            src="images/icons8-javascript-144.png"
-            alt=""
-            class="skill-icon"
-          />
-          <img src="images/icons8-c-144.png" alt="" class="skill-icon" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" type="x-icon" href="img/T.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&family=Roboto:wght@100&display=swap">
+    <link rel="stylesheet" href="style.css">
+    
+  
+</head>
+<body>
+  <section class="sections" id="heading">
+    <div class="hidden">
+      <div class="tanveer">
+        
+        <h1 class="gradient-text">Tanveer Singh</h1>
+        
+        <div id="arrowAnim">
+          <div class="arrowSliding">
+            <div class="arrow"></div>
+          </div>
+          <div class="arrowSliding delay1">
+            <div class="arrow"></div>
+          </div>
+          <div class="arrowSliding delay2">
+            <div class="arrow"></div>
+          </div>
+          <div class="arrowSliding delay3">
+            <div class="arrow"></div>
+          </div>
         </div>
+        
       </div>
     </div>
-  </body>
+   
+  </section>
+
+  <section class="sections" id="second-section">
+    <div>
+      <div class="skill">
+        <h1 class="hidden" >My Skills</h1>
+        <div class="skills hidden">
+          <img src="images/icons8-css-144.png" alt="" class="skill-icon">
+          <img src="images/icons8-html-144.png" alt="" class="skill-icon">
+          <img src="images/icons8-javascript-144.png" alt="" class="skill-icon">
+          <img src="images/icons8-c-144.png" alt="" class="skill-icon">
+        </div>  
+      </div>
+  </section>
+  <section class="sections">
+    <div id="third-container">
+      <h1 class="hidden" style="color: white; font-size: 70px;">Projects</h1>
+      <div class="parent-project hidden">
+        <div class="project">
+          <span style="display: flex;font-size: 30px;">To Do List</span>
+          <div class="project-image-1">
+            <img src="images/to-do-list.png" alt="">
+
+          </div>
+          <button id="to-do" class="btn">Visit</button>
+        </div>
+        <div class="project">
+          <span style="display: flex;font-size: 30px;">Tic-Tac-Toe</span>
+          <div class="project-image-2">
+            <img src="images/tic-tac-toe.png" alt="">
+
+          </div>
+          <button id="tic-tac" class="btn">Visit</button>
+        </div>
+        <div class="project">
+          <span style="display: flex;font-size: 30px;">Netflix Clone</span>
+          <div class="project-image-3">
+            <img src="images/netflix.png" alt="">
+
+          </div>
+          <button id="netflix" class="btn">Visit</button>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
 </html>
