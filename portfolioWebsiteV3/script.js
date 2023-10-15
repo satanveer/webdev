@@ -16,16 +16,14 @@ cards.forEach((cards) => {
 
 const redirectButtonNetflix = document.getElementById('netflix');
 redirectButtonNetflix.addEventListener('click', function () {
-  window.location.href = 'https://netflix-clone-ex9f.vercel.app/'; 
+  window.location.href = 'index-netflix.html'; 
 });
 
 const redirectButtonToDoList = document.getElementById('to-do');
 redirectButtonToDoList.addEventListener('click', function () {
-  window.location.href = 'https://to-do-list-kohl-nine.vercel.app/'; 
+  window.location.href = 'index-todo.html'; 
 });
 const redirectButtonTicTacToe = document.getElementById('tic-tac');
 redirectButtonTicTacToe.addEventListener('click', function () {
-    window.location.href = 'https://webdev-sy5j.vercel.app/'; 
+    window.location.href = 'index-tictac.html'; 
   });
-
-
